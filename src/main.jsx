@@ -3,14 +3,14 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import firebaseConfig from './firebase.Config.js'
-// import store from './store.js'
-// import { Provider } from 'react-redux'
+import store from './store.js'
+import { Provider } from 'react-redux'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    {/* <Provider store={store}>
+    <Provider store={store}>
 
-    </Provider> */}
+    <App />
+    </Provider>
   </StrictMode>,
 )
