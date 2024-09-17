@@ -28,7 +28,7 @@ const Redux = () => {
                     <button className='font-Sans font-bold text-[20px] text-[#0D0E43] px-5   '>{data}</button>
                     <button  onClick={handleIncrement} className='font-Sans font-bold text-[16px] text-[#0D0E43] py-2 px-2 border-2 border-[#000]  rounded-lg bg-[#d5dbdb] '><FaPlus /></button>
                 </div>
-                <h3 className='font-Sans font-bold text-[16px] text-[#0D0E43]'> SubTotle : $5000</h3>
+                <h3 className='font-Sans font-bold text-[16px] text-[#0D0E43]'> SubTotle : $10000</h3>
             </div>
         </Container>
         </section>
