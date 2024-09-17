@@ -5,7 +5,8 @@ import { FaEyeSlash } from "react-icons/fa";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {useNavigate} from "react-router-dom"
+import { useNavigate} from "react-router-dom"
+import Reduxexam from './Reduxexam';
 
 const Login = () => {
 
@@ -50,7 +51,7 @@ const Login = () => {
 
 
                 </div>
-                <div className="lg:py-[150px] py-[50px]  bg-[#98AFC7]  items-center">
+                <div className="lg:py-[100px] py-[50px]  bg-[#98AFC7]  items-center">
                     <div className="my-[30px] mx-[50%] py-[50px] translate-x-[-50%] bg-[#fff] rounded-xl lg:w-[500px] w-[350px] px-5 ">
                         <form action="">
                             <h2 className='font-sans font-bold   text-[22px]  text-[#262626] '>Sign in to your account</h2>
@@ -103,8 +104,13 @@ const Login = () => {
                         </form>
 
                     </div>
+                    <div className="">
+                      <Reduxexam/>
+                    </div>
+                   
 
                 </div>
+               
 
             </Container>
 
