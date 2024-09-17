@@ -3,6 +3,6 @@ import Reduxslice from './components/slice/Reduxslice'
 
 export default configureStore({
   reducer: {
-    counter:Reduxslice
+    counter:Reduxslice,
   },
 })
